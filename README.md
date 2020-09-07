@@ -14,4 +14,4 @@ First you need the training data of the generator, where each line contains an u
 Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contain an attribute of a item, which depends on how you define the attribute information.
 
 ## Model training
-python main.py --dataset="generator training set" --train_dir=default
+python main.py --dataset="generator training set name" --train_dir=default
