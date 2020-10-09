@@ -11,7 +11,7 @@ We use the Tensorflow version '1.2.0', and Python version '3.6'.
 ### Data
 First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
 
-Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contain an attribute of a item, which depends on how  define the attribute information.
+Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contains an attribute of a item, which depends on how define the attribute information.
 
 ## Model training
 python main.py --dataset="generator training set name" --train_dir=default
