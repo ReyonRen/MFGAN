@@ -2,18 +2,17 @@
 Code for our SIGIR 2020 paper "Sequential Recommendation with Self-Attentive Multi-Adversarial Network". 
 See the paper: https://dl.acm.org/doi/10.1145/3397271.3401111
 
-![model](https://github.com/RUCAIBox/MFGAN/blob/master/model.png) 
+<img src="https://github.com/RUCAIBox/MFGAN/blob/master/model.png" width="750" alt="model"/>
 
 ## Setup
 This code is based on [SASREC](https://github.com/kang205/SASRec).
 
 ### Requirements
-*Tensorflow 1.2.0,
-*Python 3.6
+* Tensorflow 1.2.0,
+* Python 3.6
 
 ### Data
-
-![dataset](https://github.com/RUCAIBox/MFGAN/blob/master/dataset.png) 
+<img src="https://github.com/RUCAIBox/MFGAN/blob/master/dataset.png" width="450" alt="dataset"/>
 
 First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
 
