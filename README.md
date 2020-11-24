@@ -14,10 +14,10 @@ First you need the training data of the generator, where each line contains an u
 Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contain an attribute of a item, which depends on how  define the attribute information.
 
 ## Model training
-'<python main.py --dataset="generator training set name" --train_dir=default>'
+`python main.py --dataset="generator training set name" --train_dir=default`
 
 ## Reference
-'@inproceedings{DBLP:conf/sigir/RenLLZWDW20,  
+`@inproceedings{DBLP:conf/sigir/RenLLZWDW20,  
   author    = {Ruiyang Ren,  
                Zhaoyang Liu,  
                Yaliang Li,  
@@ -30,4 +30,4 @@ Then you need the training data of the discriminators, which contain n files if 
                research and development in Information Retrieval, {SIGIR} 2020, Virtual
                Event, China, July 25-30, 2020},  
   year      = {2020},  
-}'
+}`
