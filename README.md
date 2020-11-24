@@ -10,7 +10,6 @@ We use the Tensorflow version '1.2.0', and Python version '3.6'.
 
 ### Data
 First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
-'userid itemid'
 
 Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contain an attribute of a item, which depends on how  define the attribute information.
 
@@ -18,17 +17,17 @@ Then you need the training data of the discriminators, which contain n files if 
 'python main.py --dataset="generator training set name" --train_dir=default'
 
 ## Reference
-'@inproceedings{DBLP:conf/sigir/RenLLZWDW20,
-  author    = {Ruiyang Ren and
-               Zhaoyang Liu and
-               Yaliang Li and
-               Wayne Xin Zhao and
-               Hui Wang and
-               Bolin Ding and
-               Ji{-}Rong Wen},
-  title     = {Sequential Recommendation with Self-Attentive Multi-Adversarial Network},
+'@inproceedings{DBLP:conf/sigir/RenLLZWDW20,  
+  author    = {Ruiyang Ren,  
+               Zhaoyang Liu,  
+               Yaliang Li,  
+               Wayne Xin Zhao,  
+               Hui Wang,  
+               Bolin Ding,  
+               Ji{-}Rong Wen},  
+  title     = {Sequential Recommendation with Self-Attentive Multi-Adversarial Network},  
   booktitle = {Proceedings of the 43rd International {ACM} {SIGIR} conference on
                research and development in Information Retrieval, {SIGIR} 2020, Virtual
-               Event, China, July 25-30, 2020},
-  year      = {2020},
+               Event, China, July 25-30, 2020},  
+  year      = {2020},  
 }'
