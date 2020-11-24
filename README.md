@@ -17,15 +17,15 @@ the perspectives of different factors.
 This code is based on [SASREC](https://github.com/kang205/SASRec).
 
 ### Requirements
-* Tensorflow 1.2.0,
+* Tensorflow 1.2.0
 * Python 3.6
 
 ### Data
 <img src="https://github.com/RUCAIBox/MFGAN/blob/master/dataset.png" width="450" alt="dataset"/>
 
-First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
+For the training data of the generator, each line contains an user id and item id meaning an interaction. 
 
-Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contain an attribute of a item, which depends on how  define the attribute information.
+As for the training data of the discriminators, it contains n files if the dataset have n attributes. In an attribute file, each line contains an attribute of a item, which depends on how the attribute information defined.
 
 ## Model training
 `python main.py --dataset="generator training set name" --train_dir=default`
