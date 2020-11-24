@@ -1,6 +1,8 @@
 # MFGAN
-Code for our SIGIR 2020 paper "Sequential Recommendation with Self-Attentive Multi-Adversarial Network". 
-See the paper: https://dl.acm.org/doi/10.1145/3397271.3401111
+Code for our SIGIR 2020 paper:
+
+>Sequential Recommendation with Self-Attentive Multi-Adversarial Network.   
+>[Paper](https://dl.acm.org/doi/10.1145/3397271.3401111)
 
 <img src="https://github.com/RUCAIBox/MFGAN/blob/master/model.png" width="750" alt="model"/>
 
