@@ -23,9 +23,11 @@ This code is based on [SASREC](https://github.com/kang205/SASRec).
 ### Data
 <img src="https://github.com/RUCAIBox/MFGAN/blob/master/dataset.png" width="450" alt="dataset"/>
 
+
 For the training data of the generator, each line contains an user id and item id meaning an interaction. 
 
 As for the training data of the discriminators, it contains n files if the dataset have n attributes. In an attribute file, each line contains an attribute of a item, which depends on how the attribute information defined.
+
 
 ## Model training
 `python main.py --dataset="generator training set name" --train_dir=default`
