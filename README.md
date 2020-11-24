@@ -16,7 +16,7 @@ Then you need the training data of the discriminators, which contain n files if 
 ## Model training
 'python main.py --dataset="generator training set name" --train_dir=default'
 
-###Reference
+### Reference
 '@inproceedings{DBLP:conf/sigir/RenLLZWDW20,
   author    = {Ruiyang Ren and
                Zhaoyang Liu and
