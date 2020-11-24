@@ -12,7 +12,7 @@ This code is based on [SASREC](https://github.com/kang205/SASRec).
 ### Data
 
 
-![图片名称](https://www.baidu.com/img/bd_logo1.png)  
+![图片名称](https://github.com/RUCAIBox/MFGAN/blob/master/model.pdf)  
 
 First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
 
