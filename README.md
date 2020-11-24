@@ -17,20 +17,15 @@ Then you need the training data of the discriminators, which contain n files if 
 `python main.py --dataset="generator training set name" --train_dir=default`
 
 ## Reference
+
 `@inproceedings{DBLP:conf/sigir/RenLLZWDW20,
 
-  author    = {Ruiyang Ren,  
-  
-               Zhaoyang Liu,  
-               
-               Yaliang Li,  
-               
-               Wayne Xin Zhao,  
-               
-               Hui Wang,  
-               
-               Bolin Ding,  
-               
+  author    = {Ruiyang Ren,
+               Zhaoyang Liu,
+               Yaliang Li,
+               Wayne Xin Zhao,
+               Hui Wang,
+               Bolin Ding,
                Ji{-}Rong Wen},  
                
   title     = {Sequential Recommendation with Self-Attentive Multi-Adversarial Network},  
@@ -41,4 +36,4 @@ Then you need the training data of the discriminators, which contain n files if 
                
   year      = {2020},  
   
-}`
+}'
