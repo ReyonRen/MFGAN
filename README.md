@@ -18,7 +18,8 @@ Then you need the training data of the discriminators, which contain n files if 
 
 ## Reference
 
-```@inproceedings{DBLP:conf/sigir/RenLLZWDW20,
+```
+@inproceedings{DBLP:conf/sigir/RenLLZWDW20,
 
   author    = {Ruiyang Ren,
                Zhaoyang Liu,
@@ -36,4 +37,5 @@ Then you need the training data of the discriminators, which contain n files if 
                
   year      = {2020},  
   
-}```
+}
+```
