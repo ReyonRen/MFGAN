@@ -6,6 +6,13 @@ Code for our SIGIR 2020 paper:
 
 <img src="https://github.com/RUCAIBox/MFGAN/blob/master/model.png" width="750" alt="model"/>
 
+
+## Introduction
+In this paper, we have proposed a Multi-Factor Generative Adversarial Network (MFGAN) for sequential recommendation. In our
+framework, the generator taking user behavior sequences as input is
+used to generate possible next items, and multiple factor-specific discriminators are used to evaluate the generated sub-sequence from
+the perspectives of different factors.
+
 ## Setup
 This code is based on [SASREC](https://github.com/kang205/SASRec).
 
