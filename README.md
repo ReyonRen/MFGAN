@@ -20,22 +20,17 @@ Then you need the training data of the discriminators, which contain n files if 
 
 ```
 @inproceedings{DBLP:conf/sigir/RenLLZWDW20,
-
   author    = {Ruiyang Ren,
                Zhaoyang Liu,
                Yaliang Li,
                Wayne Xin Zhao,
                Hui Wang,
                Bolin Ding,
-               Ji{-}Rong Wen},  
-               
+               Ji{-}Rong Wen},                 
   title     = {Sequential Recommendation with Self-Attentive Multi-Adversarial Network},  
-  
   booktitle = {Proceedings of the 43rd International {ACM} {SIGIR} conference on
                research and development in Information Retrieval, {SIGIR} 2020, Virtual
-               Event, China, July 25-30, 2020},  
-               
-  year      = {2020},  
-  
+               Event, China, July 25-30, 2020},                 
+  year      = {2020},    
 }
 ```
