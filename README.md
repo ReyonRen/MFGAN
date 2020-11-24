@@ -36,4 +36,4 @@ Then you need the training data of the discriminators, which contain n files if 
                
   year      = {2020},  
   
-}'
+}`
