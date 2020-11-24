@@ -2,6 +2,8 @@
 Code for our SIGIR 2020 paper "Sequential Recommendation with Self-Attentive Multi-Adversarial Network". 
 See the paper: https://dl.acm.org/doi/10.1145/3397271.3401111
 
+![model](https://github.com/RUCAIBox/MFGAN/blob/master/model.png) 
+
 ## Setup
 This code is based on [SASREC](https://github.com/kang205/SASRec).
 
@@ -11,8 +13,7 @@ This code is based on [SASREC](https://github.com/kang205/SASRec).
 
 ### Data
 
-
-![model](https://github.com/RUCAIBox/MFGAN/blob/master/model.png)  
+![dataset](https://github.com/RUCAIBox/MFGAN/blob/master/dataset.png) 
 
 First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
 
