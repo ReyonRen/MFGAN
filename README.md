@@ -6,9 +6,14 @@ See the paper: https://dl.acm.org/doi/10.1145/3397271.3401111
 This code is based on [SASREC](https://github.com/kang205/SASRec).
 
 ### Requirements
-We use the Tensorflow version '1.2.0', and Python version '3.6'.
+*Tensorflow 1.2.0,
+*Python 3.6
 
 ### Data
+
+
+![图片名称](https://www.baidu.com/img/bd_logo1.png)  
+
 First you need the training data of the generator, where each line contains an user id and item id meaning an interaction. 
 
 Then you need the training data of the discriminators, which contain n files if the dataset have n attributes. In an attribute file, each line contain an attribute of a item, which depends on how  define the attribute information.
