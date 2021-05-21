@@ -35,7 +35,7 @@ As for the training data of the discriminators, it contains n files if the datas
 ## Reference
 
 ```
-@inproceedings{DBLP:conf/sigir/RenLLZWDW20,
+@inproceedings{Ren2020Sequential,
   author    = {Ruiyang Ren,
                Zhaoyang Liu,
                Yaliang Li,
